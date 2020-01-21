@@ -17,7 +17,7 @@ function App() {
             <Link to = '/login'> Login </Link>
           </li>
         </ul>
-        <Route path = '/login' component = {Login}/>
+        <Route path = '/login' component = {Login} />
         <PrivateRoute path = '/friendsPage' component = {ProtectedPage} />
       </header>
     </div>
